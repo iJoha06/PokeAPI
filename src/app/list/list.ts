@@ -6,7 +6,7 @@ import { Card } from './card/card';
   selector: 'poke-list',
   imports: [Card],
   template: `
-    <h1 class="title">My Pokémon List</h1>
+    <h1 class="title">Pokémon List</h1>
     <div class="poke-container">
       @if (pokeListResource.isLoading()) {
         <p>Loading...</p>
